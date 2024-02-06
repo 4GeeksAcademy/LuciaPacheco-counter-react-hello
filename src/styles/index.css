@@ -9,3 +9,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    background-color: black;
+    width: 300px; /* Ajusta el ancho según lo necesites */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .digito {
+    color: white;
+    font-size: 48px;
+    font-family: monospace;
+    margin: 0 5px; /* Agrega espacio entre los dígitos */
+  }

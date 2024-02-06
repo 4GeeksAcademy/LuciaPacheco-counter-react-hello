@@ -55,10 +55,17 @@ function App() {
       return () => clearInterval(interval);
     }, [digito1, digito2, digito3, digito4, digito5, digito6]);
   
-    return id(
-      <div>
-        <h1>{`${digito1}${digito2}${digito3}${digito4}${digito5}${digito6}`}</h1>
-      </div>
+    return (
+        <div className="container">
+          <h1>
+            <span className="digito">{digito1}</span>
+            <span className="digito">{digito2}</span>
+            <span className="digito">{digito3}</span>
+            <span className="digito">{digito4}</span>
+            <span className="digito">{digito5}</span>
+            <span className="digito">{digito6}</span>
+          </h1>
+        </div>
     );
   }
   
